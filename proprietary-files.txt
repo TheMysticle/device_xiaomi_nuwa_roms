@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are taken from Xiaomi 13 Pro AQ3A.240912.001 OS2.0.106.0.VMBCNXM
+## are taken from Xiaomi 13 Pro AQ3A.240912.001 OS2.0.200.2.VMBEUXM
 
 # ACDBs
 odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb
@@ -134,32 +134,6 @@ odm/firmware/cs35l41-dsp1-spk-prot.wmfw
 # Camera
 system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 odm/bin/hw/vendor.qti.camera.provider-service_64
-odm/etc/camera/102_SummerDay.png
-odm/etc/camera/103_Fantasy.png
-odm/etc/camera/104_Meet.png
-odm/etc/camera/105_WindSing.png
-odm/etc/camera/106_Lost.png
-odm/etc/camera/107_Central.png
-odm/etc/camera/108_NorthernEurope.png
-odm/etc/camera/109_Rome.png
-odm/etc/camera/110_BlackGold.png
-odm/etc/camera/111_GreenOrange.png
-odm/etc/camera/112_CyberPunk.png
-odm/etc/camera/113_BlackIce.png
-odm/etc/camera/121_Bleach.png
-odm/etc/camera/122_Thriller.png
-odm/etc/camera/123_TealOrange.png
-odm/etc/camera/124_JapaneseStyle.png
-odm/etc/camera/125_Latin.png
-odm/etc/camera/126_Fantasy2.png
-odm/etc/camera/127_Creamy.png
-odm/etc/camera/128_Sepia.png
-odm/etc/camera/129_Vivid.png
-odm/etc/camera/130_Natural.png
-odm/etc/camera/131_Monochrome.png
-odm/etc/camera/132_MonochromeHighContrast.png
-odm/etc/camera/133_MonochromeBrown.png
-odm/etc/camera/134_MonochromeBlue.png
 odm/etc/camera/CFR_para_UW_V01.bin
 odm/etc/camera/CFR_para_UW_V01_HD.bin
 odm/etc/camera/CFR_para_UW_V01_HDR.bin
@@ -807,7 +781,7 @@ odm/lib64/libtriplecam_optical_zoom_control.so
 odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libubifocus.so
 odm/lib64/libvideoBokeh.so
-odm/lib64/libvideofilter_only.so
+odm/lib64/libMiVideoFilter.so
 odm/lib64/libvideoml.so
 odm/lib64/libvideomode.so
 odm/lib64/libvidhance.so
@@ -1231,7 +1205,7 @@ odm/firmware/glove_model.tflite
 odm/firmware/water_check.tflite
 odm/lib64/hw/vendor.xiaomi.hw.touchfeature@1.0-impl.so
 odm/lib64/libtensorflowlite_c.so
-vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0.so:vendor/lib64/vendor.xiaomi.hw.touchfeature@1.0_vendor.so;FIX_SONAME
 
 # Vibrator firmware
 odm/firmware/0_click_P_RTP.bin:vendor/etc/vibrator/effect_0.bin
