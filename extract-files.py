@@ -41,6 +41,11 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .regex_replace('xml=version', 'xml version'),
     (
+        'odm/lib64/libailab_rawhdr.so',
+        'odm/lib64/libxmi_high_dynamic_range_cdsp.so',
+    ): blob_fixup()
+        .strip_debug_sections(),
+    (
         'odm/etc/camera/mihal_overlap/overlap_config.json',
         'odm/etc/camera/mihal_overlap/proj_overlap_config.json'
     ): blob_fixup()
