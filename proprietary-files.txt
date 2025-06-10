@@ -5,8 +5,8 @@
 # camera.xiaomi depends on libui-v33 which is a gnu makefile target
 
 # ACDBs
-odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb
-odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp
+odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb:vendor/etc/acdbdata/kalama_mtp/Forte_acdb_cal.acdb
+odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:vendor/etc/acdbdata/kalama_mtp/Forte_workspaceFileXml.qwsp
 
 # ADSP Modules
 odm/etc/audio/misound_res_spk_power_game.bin
