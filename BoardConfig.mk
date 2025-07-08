@@ -10,6 +10,9 @@ include device/xiaomi/sm8550-common/BoardConfigCommon.mk
 # Inherit from the proprietary version
 include vendor/xiaomi/nuwa/BoardConfigVendor.mk
 
+# Touchscreen
+$(call soong_config_set, XIAOMI_TOUCH, HIGH_TOUCH_POLLING_PATH, /sys/class/touch/touch_dev/high_touch_rate)
+
 DEVICE_PATH := device/xiaomi/nuwa
 
 # Kernel
