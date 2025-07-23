@@ -1,6 +1,9 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
 ## are taken from Xiaomi 13 Pro AQ3A.240912.001 OS2.0.203.0.VMBCNXM
 
+# Current blobs with ELF checks disabled:
+# camera.xiaomi depends on libui-v33 which is a gnu makefile target
+
 # ACDBs
 odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb
 odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp
@@ -664,7 +667,7 @@ odm/lib64/com.xiaomi.camhal.overlap.so
 odm/lib64/com.xiaomi.camhal.submodel.camxfrag.so
 odm/lib64/com.xiaomi.camhal.submodel.chifrag.so
 odm/lib64/hw/camera.qcom.so
-odm/lib64/hw/camera.xiaomi.so
+odm/lib64/hw/camera.xiaomi.so;DISABLE_CHECKELF
 odm/lib64/hw/com.qti.chi.offline.so
 odm/lib64/hw/com.qti.chi.override.so
 odm/lib64/libAF.so
