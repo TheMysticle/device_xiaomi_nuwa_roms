@@ -586,7 +586,7 @@
         <ctl name="T ASP TX1 Source" value="ASPRX1" />
         <ctl name="T ASPTX Ref" value="Ref" />
         <ctl name="T AMP Enable Switch" value="1" />
-        <ctl name="T AMP PCM Gain" value="5" />
+        <ctl name="T AMP PCM Gain" value="12" />
     </path>
 
     <path name="handset-vbat">
@@ -1082,8 +1082,8 @@
         <ctl name="TX3 MODE" value="ADC_LP" />
         <ctl name="ADC4_MIXER Switch" value="1" />
         <ctl name="AMIC5_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="8" />
-        <ctl name="ADC4 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="12" />
     </path>
 
     <path name="speaker-dmic-endfire">
