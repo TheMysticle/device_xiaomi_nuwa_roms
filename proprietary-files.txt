@@ -121,6 +121,9 @@ vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 vendor/lib/rfsa/adsp/nearby.napp_header;MODULE=nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
 
+# Audio Configs
+odm/etc/backend_conf.xml:vendor/etc/backend_conf.xml
+
 # Audio firmware
 odm/firmware/B-cs35l41-dsp1-spk-cali.bin
 odm/firmware/B-cs35l41-dsp1-spk-prot.bin
