@@ -5,8 +5,8 @@
 # camera.xiaomi depends on libui-v33 which is a gnu makefile target
 
 # ACDBs
-odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb:vendor/etc/acdbdata/kalama_mtp/Forte_acdb_cal.acdb
-odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp:vendor/etc/acdbdata/kalama_mtp/Forte_workspaceFileXml.qwsp
+odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb
+odm/etc/acdbdata/Forte/Forte_workspaceFileXml.qwsp
 
 # ADSP Modules
 odm/etc/audio/misound_res_spk_power_game.bin
@@ -120,9 +120,6 @@ vendor/lib/rfsa/adsp/libvpp_vqa_networks.so
 vendor/lib/rfsa/adsp/libvpt_action_recognition.so
 vendor/lib/rfsa/adsp/nearby.napp_header;MODULE=nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
-
-# Audio Configs
-odm/etc/backend_conf.xml:vendor/etc/backend_conf.xml
 
 # Audio firmware
 odm/firmware/B-cs35l41-dsp1-spk-cali.bin
