@@ -13,5 +13,6 @@ on boot
     chown system system /sys/class/touch/touch_dev/gesture_double_tap_state
     chmod 0664 /sys/class/touch/touch_dev/gesture_double_tap_state
 
-    chown system system /sys/class/touch/touch_dev/high_touch_rate
-    chmod 0664 /sys/class/touch/touch_dev/high_touch_rate
+    # High touch polling rate
+    chown system system /sys/devices/virtual/touch/touch_dev/bump_sample_rate
+    chmod 0660 /sys/devices/virtual/touch/touch_dev/bump_sample_rate
