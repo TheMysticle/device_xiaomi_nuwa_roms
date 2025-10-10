@@ -30,7 +30,7 @@ WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
 
 # Touchscreen
-$(call soong_config_set, XIAOMI_TOUCH, HIGH_TOUCH_POLLING_PATH, /sys/class/touch/touch_dev/high_touch_rate)
+$(call soong_config_set, XIAOMI_TOUCH, HIGH_TOUCH_POLLING_PATH, /sys/devices/virtual/touch/touch_dev/bump_sample_rate)
 
 DEVICE_PATH := device/xiaomi/nuwa
 
